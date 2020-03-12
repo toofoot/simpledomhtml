@@ -17,10 +17,11 @@
         }   
     ],
     "require": {
-        "php": ">=5.6",
+        "php": ">=7.0",
         "ext-mbstring": "*"
     },
     "autoload": {
         "psr-0": { "Toofoot\\PhpSimple\\HtmlDomParser": "Src/" }
-    }    
+    },    
+    "minimum-stability": "stable"
 }
